@@ -12,7 +12,7 @@
     --blackish: #0c0c0d;
     --ProjectBackground: rgba(255, 255, 255, 0.05);
     --borderImgProject: #ff5e00;
-    --ProfilePictureColor: linear-gradient(90deg, #ffcc00, #ff0000);
+    --ProfilePictureColor: linear-gradient(45deg, #f00,#0f0, #00f, #f00,#0f0,  #00f,#0f0,#0f0, #f00);
     --horizontal-gradient: linear-gradient(90deg, #00bbff, #e600ff, #00bbff);
     --BorderSections: #1b1b1b;
 }
@@ -243,8 +243,9 @@ body .section:nth-child(2n) {
 
 .profile-picture {
     background: var(--ProfilePictureColor);
-    width: 170px;
-    height: 170px;
+    background-size: 400%;
+    width: 165px;
+    height: 165px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
@@ -253,7 +254,7 @@ body .section:nth-child(2n) {
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    margin: 5px;
+    margin: 2px;
     transition: transform .5s ease;
 }
 
