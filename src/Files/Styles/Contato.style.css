@@ -1,6 +1,6 @@
 footer {
     position: relative;
-    width: 100%;
+    width: 100vw;
     background: #3586ff;
     min-height: 100px;
     display: flex;

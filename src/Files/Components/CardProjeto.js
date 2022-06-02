@@ -7,9 +7,14 @@ export default function CardProjeto(props) {
     const Descricao = props.Descricao;
     const Link = props.Link;
     const ButtonText = props.ButtonText;
+
     
     return (
-        <div class="project">
+        <div 
+            class="project"
+            data-aos="flip-up"
+            data-aos-delay="300"
+            data-aos-duration="2000" >
             <div class="projectSubContainer">
                 <div className="BordaColorida">
                     <img src={Imagem} alt={AltImagem} />
