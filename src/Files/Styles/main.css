@@ -18,7 +18,6 @@
 }
 
 ::selection {
-    background: #75aaff;
     background: var(--light-blue);
     color: #000
 }
@@ -29,7 +28,7 @@ body {
 }
 
 .section {
-    width: 100vw;
+    width: 100%;
     color: #fff;
     font-size: 32px;
     box-sizing: border-box
@@ -53,7 +52,6 @@ body .section:nth-child(2n) {
 .hero {
     height: 100vh;
     position: relative;
-    overflow: hidden;
     border-bottom: solid 1px var(--BorderSections);
 }
 
@@ -95,13 +93,8 @@ body .section:nth-child(2n) {
 
 @media(max-width:1000px) {
 
-    .hero {
-        height: 100vh;
-    }
-
     .hero--content {
-        width: 80%;    
-
+        width: 80%;
     }
     .hero--content h1 {
         font-size: 45px;
@@ -120,11 +113,12 @@ body .section:nth-child(2n) {
     justify-content: center;
     flex-wrap: wrap;
     margin: 30px auto;
-    max-width: 1800px;
+    width: 80vw;
+    max-width: 1300px;
 }
 
 .project {
-    width: calc(33.3% - 20px);
+    width: calc(30.3% - 20px);
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -132,7 +126,6 @@ body .section:nth-child(2n) {
     box-sizing: border-box;
     border-radius: 10px;
     background: var(--ProjectBackground);
-    max-height: 750px;
 }
 
 .projectSubContainer {
@@ -214,6 +207,7 @@ body .section:nth-child(2n) {
     margin: 20px 0 60px;
     padding-bottom: 50px;
     display: flex;
+    justify-content: center;
 }
 
 .about--text>h3 {
@@ -265,7 +259,7 @@ body .section:nth-child(2n) {
 .about--text {
     width: 80%;
     max-width: 900px;
-    margin: 0 auto 10px;
+    margin: 0 30px;
 }
 
 @media(max-width:1000px) {
