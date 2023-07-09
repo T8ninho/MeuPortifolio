@@ -36,7 +36,7 @@ export default function Contato() {
                     </a>
                 </li>
             </ul>
-            <p>©2021-2022 <span>T8ninho</span> | Todos os direitos reservados</p>
+            <p>©2021-2023 <span>T8ninho</span> | Todos os direitos reservados</p>
         </footer>
     )
 }

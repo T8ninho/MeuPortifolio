@@ -12,7 +12,7 @@ export default function Informacoes(){
                     </div>
                     <div class="about--text">
                         <h3>Olá, tudo bom?</h3>
-                        <p>Eu sou Antonio Vitor, tenho 22 anos e tenho uma grande paixão por desenvolvimento de sites. Comecei na área apenas com <span>HTML</span> e <span>CSS</span>, atualmente estou estudando <span>JavaScript</span> combinado com <span>ReactJS</span> para tornar ainda mais atrativas minhas criações. Nesta página estão alguns dos meus projetos, fique a vontade para
+                        <p>Eu sou Antonio Vitor, tenho 23 anos e tenho uma grande paixão por desenvolvimento de sites. Comecei na área apenas com <span>HTML</span> e <span>CSS</span>, atualmente estou estudando <span>JavaScript</span> combinado com a framework do <span>ReactJS</span> e <span>React Native</span> para tornar ainda mais atrativas minhas criações. Nesta página estão alguns dos meus projetos, fique a vontade para
                             visitar cada um deles.</p>
                     </div>
                 </div>
