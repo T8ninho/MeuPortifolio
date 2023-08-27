@@ -1,5 +1,6 @@
 import TypeAnimation from 'react-type-animation';
 import "../Styles/SetaDescendo.css"
+// import styled from '@emotion/styled';
 
 import AOS from 'aos'; //Efeitos
 import 'aos/dist/aos.css'; //Efeitos
@@ -17,7 +18,6 @@ export default function Titulo(){
         'Aqui estão alguns de meus projetos.', TimerText,
         'Desenvolverdor Web Front-end.',
     ]
-
     return(
         <div 
             class="hero section"
