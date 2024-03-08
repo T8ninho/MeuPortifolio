@@ -1,5 +1,6 @@
 import "../Styles/Botao.style.css"
 
+
 export default function CardProjeto(props) {
     const Imagem = props.Imagem;
     const AltImagem = props.AltImagem
@@ -7,7 +8,6 @@ export default function CardProjeto(props) {
     const Descricao = props.Descricao;
     const Link = props.Link;
     const ButtonText = props.ButtonText;
-
     
     return (
         <div 

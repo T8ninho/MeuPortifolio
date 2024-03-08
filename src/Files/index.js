@@ -1,20 +1,17 @@
-import Contato from "./Components/Contato"
-import Informacoes from "./Components/Informacoes"
-import Projetos from "./Components/Projetos"
-import Titulo from "./Components/Titulo"
-import "./Styles/main.css"
+import Contato from "./Components/Contato";
+import Informacoes from "./Components/Informacoes";
+import Projetos from "./Components/Projetos";
+import Titulo from "./Components/Titulo";
+import "./Styles/main.css";
 
 export default function Portfolio() {
 
-    return(
-        <div>
-            <Titulo />
-            <Projetos />
-            <Informacoes />
-            <Contato />
-        </div>
-        
-    )
+  return (
+    <>
+      <Titulo />
+      <Projetos />
+      <Informacoes />
+      <Contato />
+    </>
+  );
 }
-
-  // #EDD1B0

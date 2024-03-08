@@ -10,6 +10,22 @@ AOS.init(); //Inicializando Biblioteca
 
 export default function Titulo(){
     
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+    
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+    
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - document.querySelector('.fixed-header').offsetHeight,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
     const Title = "<Antonio Vitor/>"
     const TimerText = 3000
 
@@ -35,11 +51,13 @@ export default function Titulo(){
                     sequence={Texto}
                     wrapper="p"
                 />
-                <div class="ContainerSeta">
-                    <div class="chevron"></div>
-                    <div class="chevron"></div>
-                    <div class="chevron"></div>
-                </div>
+                <a href="#projetos">
+                    <div class="ContainerSeta">
+                        <div class="chevron"></div>
+                        <div class="chevron"></div>
+                        <div class="chevron"></div>
+                    </div>
+                </a>
             </div>
         </div>
     )

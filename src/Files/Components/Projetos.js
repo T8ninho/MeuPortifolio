@@ -11,7 +11,7 @@ AOS.init(); //Inicializando Biblioteca
 
 export default function Projetos() {
     return(
-        <div class="projects section">
+        <div class="projects section" id="projetos">
                 <h2>Aqui estão alguns de meus projetos:</h2>
                 <div class="projects--container">
                         <CardProjeto
@@ -19,7 +19,7 @@ export default function Projetos() {
                             AltImagem="Imagem mostranho o site Galeria usando Firebase."
                             Titulo="Galeria de Fotos"
                             Descricao="Uma galeria de imagens feita usando Typescript, ReactJs e integrando ao firebase Storage"
-                            Link="https://galeriareact-ddfd6.web.app/"
+                            Link="https://galeria.t8ninho.com/"
                             ButtonText="Visitar"
                         />
                         <CardProjeto 
@@ -43,7 +43,7 @@ export default function Projetos() {
                             AltImagem="Imagem mostranho o site Bolitos Gourmet uma confeitaria."
                             Titulo="Bolitos Gourmet"
                             Descricao="Um website feito para uma apresentação de trabalho sobre criação de empresas."
-                            Link="https://bolitos-gourmet.web.app/"
+                            Link="https://bolitos-gourmet.t8ninho.com/"
                             ButtonText="Visitar"
                         />
                 </div>
