@@ -1,6 +1,6 @@
 import "../Styles/Contato.style.css"
 
-import TwitterIcon from '@mui/icons-material/Twitter';
+
 import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
@@ -15,18 +15,13 @@ export default function Contato() {
                 <div class="wave" id="wave4"></div>
             </div>
             <ul class="social_icon">
-                <li class="TwitterCode">
-                    <a target="_blank" rel="noreferrer" href="https://twitter.com/t8ninho">
-                        <TwitterIcon />
-                    </a>
-                </li>
                 <li class="InstagramCode">
                     <a target="_blank" rel="noreferrer" href="https://www.instagram.com/t8ninho/">
                         <InstagramIcon />
                     </a>
                 </li>
                 <li class="EmailCode">
-                    <a target="_blank" rel="noreferrer" href="mailto:tonisantos.contato@gmail.com">
+                    <a target="_blank" rel="noreferrer" href="mailto:contato@t8ninho.com">
                         <EmailIcon />
                     </a>
                 </li>
@@ -36,7 +31,7 @@ export default function Contato() {
                     </a>
                 </li>
             </ul>
-            <p>©2021-2024 | Feito com muito ❤  por <span>T8ninho</span></p>
+            <p>© 2021-2024 | Feito com ❤ por <span>T8ninho</span></p>
         </footer>
     )
 }

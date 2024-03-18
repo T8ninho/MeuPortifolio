@@ -135,25 +135,20 @@ body .section:nth-child(2n) {
     justify-content: space-between;
 }
 
-.BordaColorida {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(45deg, #fb0094, #00f, #0f0, #ff0, #f00, #fb0094, #00f, #0f0, #ff0, #f00);
-    background-size: 400%;
+.projectImage {
+    height: 25vh;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
     border-radius: 10px;
 }
 
-.project img {
-    width: 98%;
-    height: 98%;
-    padding-left: 1px;
-    padding-top: 1px;
-    padding-right: 1px;
-    padding-bottom: 1px;
-    border-radius: 10px;    
+.projectImage img {
+    height: 100%;
+    width: 100%;
+    display: block;   
 }
-
 .project--body {
     padding-top: 10px;
     font-weight: 200
@@ -236,24 +231,14 @@ body .section:nth-child(2n) {
 }
 
 .profile-picture {
-    background: var(--ProfilePictureColor);
-    background-size: 400%;
     width: 165px;
     height: 165px;
-    border-radius: 50%;
-    margin-bottom: 20px;
 }
 
 .profile-picture img {
     width: 160px;
     height: 160px;
-    border-radius: 50%;
     margin: 2px;
-    transition: transform .5s ease;
-}
-
-.profile-picture:hover img {
-    transform: scale(1.1);
 }
 
 .about--text {

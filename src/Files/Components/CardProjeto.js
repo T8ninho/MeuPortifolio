@@ -10,13 +10,13 @@ export default function CardProjeto(props) {
     const ButtonText = props.ButtonText;
     
     return (
-        <div 
+        <article 
             class="project"
             data-aos="flip-up"
             data-aos-delay="300"
             data-aos-duration="2000" >
             <div class="projectSubContainer">
-                <div className="BordaColorida">
+                <div className="projectImage">
                     <img src={Imagem} alt={AltImagem} />
                 </div>
                 <div class="project--body">
@@ -29,7 +29,7 @@ export default function CardProjeto(props) {
                     </a>
                 </div>
             </div>
-        </div>
+        </article>
         
     )
 }

@@ -1,4 +1,5 @@
 import Perfil from "../Images/perfil.jpg"
+import "../Styles/Botao.style.css"
 
 export default function Informacoes(){
     return(
@@ -7,8 +8,11 @@ export default function Informacoes(){
                 <h2>Um pouco sobre mim:</h2>
                 <h1> </h1>
                 <div class="about--section">
-                    <div class="profile-picture">
+                    <div class="profile-picture colorido">
+                        <div>
                         <img src={Perfil} alt=""/>
+
+                        </div>
                     </div>
                     <div class="about--text">
                         <h3>Olá, tudo bom?</h3>
