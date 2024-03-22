@@ -114,17 +114,15 @@ body .section:nth-child(2n) {
     flex-wrap: wrap;
     margin: 30px auto;
     width: 80vw;
+    gap: 10px;
     max-width: 1300px;
 }
 
 .project {
     width: calc(30.3% - 20px);
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    padding: 25px;
+    padding: 10px;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 16px;
     background: var(--ProjectBackground);
 }
 
@@ -141,12 +139,12 @@ body .section:nth-child(2n) {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-    border-radius: 10px;
+    border-radius: 16px;
 }
 
 .projectImage img {
     height: 100%;
-    width: 100%;
+    border-radius: 16px;
     display: block;   
 }
 .project--body {
@@ -239,6 +237,7 @@ body .section:nth-child(2n) {
     width: 160px;
     height: 160px;
     margin: 2px;
+    border-radius: 8px;
 }
 
 .about--text {
