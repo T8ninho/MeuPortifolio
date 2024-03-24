@@ -36,14 +36,15 @@ export default function Titulo(){
     ]
     return(
         <div 
-            class="hero section"
+            className="hero section"
             data-aos="fade-down"
             data-aos-delay="300"
             data-aos-duration="1000">
-            <div class="hero--content">
-                <h1>{Title}
-                    <span class="hero--highlight">T8ninho</span>
-                </h1>
+            <div className="hero--content">
+                <div className='hero-bordaBottom'>
+                    <h1 className='titulosBG'>{Title}</h1>
+                    <span className="hero--highlight">T8ninho</span>
+                </div>
                 <p>Uma coleção dos meus projetos e outras coisas legais que estou preparando.</p>
                 <br />
                 <TypeAnimation
@@ -51,13 +52,12 @@ export default function Titulo(){
                     sequence={Texto}
                     wrapper="p"
                 />
-                <a href="#projetos">
-                    <div class="ContainerSeta">
-                        <div class="chevron"></div>
-                        <div class="chevron"></div>
-                        <div class="chevron"></div>
-                    </div>
-                </a>
+                
+                    <a href="#projetos" className="ContainerSeta">
+                        <div className="chevron" />
+                        <div className="chevron" />
+                        <div className="chevron" />
+                    </a>
             </div>
         </div>
     )

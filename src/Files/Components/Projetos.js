@@ -11,9 +11,9 @@ AOS.init(); //Inicializando Biblioteca
 
 export default function Projetos() {
     return(
-        <div class="projects section" id="projetos">
-                <h2>Aqui estão alguns de meus projetos:</h2>
-                <div class="projects--container">
+        <div className="projects section" id="projetos">
+                <h2 className="titulosBG">Projetos:</h2>
+                <div className="projects--container">
                         <CardProjeto
                             Imagem={GaleriaWeb}
                             AltImagem="Imagem mostranho o site Galeria usando Firebase."

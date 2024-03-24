@@ -14,7 +14,7 @@
     --borderImgProject: #ff5e00;
     --ProfilePictureColor: linear-gradient(45deg, #f00,#0f0, #00f, #f00,#0f0,  #00f,#0f0,#0f0, #f00);
     --horizontal-gradient: linear-gradient(90deg, #00bbff, #e600ff, #00bbff);
-    --BorderSections: #1b1b1b;
+    --BorderSections: #ffffff;
 }
 
 ::selection {
@@ -28,63 +28,60 @@ body {
 }
 
 .section {
-    width: 100%;
     color: #fff;
-    font-size: 32px;
-    box-sizing: border-box
-}
-
-body .section:nth-child(odd) {
-    background: var(--primary-grey)
-}
-
-body .section:nth-child(2n) {
-    background: var(--secondary-grey)
+    box-sizing: border-box;
+    font-size: 28px;
+    text-align: center;
 }
 
 @media(max-width:1000px) {
     .section {
-        font-size: 28px;
-        padding: 40px 25px
+        padding: 40px 25px;
+        font-size: 20px;
     }
 }
 
 .hero {
-    height: 100vh;
-    position: relative;
+    height: 95vh;
     border-bottom: solid 1px var(--BorderSections);
+    background-image: url('../Images/BGJanela.png');
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(10px);
 }
 
-.hero h1 {
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    filter: blur(10px);
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    z-index: -1;
+}  
+.hero-bordaBottom {
     border-bottom: solid 2px #ffffff;
 }
 
 .hero--content {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
+    align-items: center;
+    justify-content: center;
     font-size: 19px;
+    height: 100%;
+    margin: 0 auto;
     text-align: center
 }
 
-.hero--content h1 {
+.hero--content h1, .hero--highlight {
     font-size: 80px;
     line-height: 70px;
     margin-bottom: 40px;
-    background-image: url(../Images/FundoTitulo.webp);
-    background-size: cover;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
 }
+
 
 .hero--highlight {
     color: var(--TextoDestaque);
@@ -96,17 +93,21 @@ body .section:nth-child(2n) {
     .hero--content {
         width: 80%;
     }
-    .hero--content h1 {
+    .hero--content h1, .hero--content span {
         font-size: 45px;
         line-height: 40px
     }
 }
 
+.titulosBG {
+    background: linear-gradient(#ff0000,#de6868, #f700ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 .projects {
     min-height: 50vh;
-    box-sizing: border-box;
-    z-index: 2;
-    text-align: center;
 }
 .projects--container {
     display: flex;
@@ -186,14 +187,14 @@ body .section:nth-child(2n) {
 }
 
 .about {
-    border-bottom: solid 1px var(--BorderSections);
     border-top: solid 1px var(--BorderSections);
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.about h1 {
-    border-bottom: solid 2px #ffffff;
-}
 
 .about--section {
     padding: 10px;
@@ -244,6 +245,12 @@ body .section:nth-child(2n) {
     width: 80%;
     max-width: 900px;
     margin: 0 30px;
+}
+.about-picture {
+    height: 600px;
+}
+.about-picture img{
+    height: 100%;
 }
 
 @media(max-width:1000px) {

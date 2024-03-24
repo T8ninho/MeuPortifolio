@@ -1,3 +1,4 @@
+import CardTecnologias from "./Components/CardTecnologias";
 import Contato from "./Components/Contato";
 import Informacoes from "./Components/Informacoes";
 import Projetos from "./Components/Projetos";
@@ -9,6 +10,7 @@ export default function Portfolio() {
   return (
     <>
       <Titulo />
+      <CardTecnologias />
       <Projetos />
       <Informacoes />
       <Contato />

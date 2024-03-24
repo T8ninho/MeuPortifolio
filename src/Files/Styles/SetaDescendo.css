@@ -1,9 +1,6 @@
 .ContainerSeta {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     padding-top: 30vh;
-    width: 100%;
   }
   
   .chevron {
@@ -37,13 +34,14 @@
   }
   
   .chevron:before {
-    left: 0;
+    left: -15px;
+    width: 100%;
     transform: skewY(30deg);
   }
   
   .chevron:after {
-    right: 0;
-    width: 50%;
+    right: -15px;
+    width: 100%;
     transform: skewY(-30deg);
   }
   

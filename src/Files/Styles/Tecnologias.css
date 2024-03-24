@@ -1,0 +1,33 @@
+.containerTecno {
+	gap: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10px;
+}
+
+.imageTecno {
+	height: 100px;
+	padding: 10px;
+	border-radius: 10%;
+	overflow: hidden;
+	background: linear-gradient(#dd4ef6, #f71818);
+	display: flex;
+	justify-content: center;
+}
+
+.imageTecno img {
+	height: 100%;
+	width: 100%;
+	border-radius: 10%;
+}
+
+.sombra {
+	transition: .5s ease-out;
+	filter: drop-shadow(10px 0 5px #000);
+}
+
+.sombra:hover {
+	filter: drop-shadow(-10px 0 5px #000);
+}

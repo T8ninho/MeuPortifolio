@@ -8,24 +8,24 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 export default function Contato() {
     return(
         <footer>
-            <div class="waves">
-                <div class="wave" id="wave1"></div>
-                <div class="wave" id="wave2"></div>
-                <div class="wave" id="wave3"></div>
-                <div class="wave" id="wave4"></div>
+            <div className="waves">
+                <div className="wave" id="wave1"></div>
+                <div className="wave" id="wave2"></div>
+                <div className="wave" id="wave3"></div>
+                <div className="wave" id="wave4"></div>
             </div>
-            <ul class="social_icon">
-                <li class="InstagramCode">
+            <ul className="social_icon">
+                <li className="InstagramCode">
                     <a target="_blank" rel="noreferrer" href="https://www.instagram.com/t8ninho/">
                         <InstagramIcon />
                     </a>
                 </li>
-                <li class="EmailCode">
+                <li className="EmailCode">
                     <a target="_blank" rel="noreferrer" href="mailto:contato@t8ninho.com">
                         <EmailIcon />
                     </a>
                 </li>
-                <li class="WhatsAppCode">
+                <li className="WhatsAppCode">
                     <a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send?phone=5527996028557">
                         <WhatsAppIcon/>
                     </a>
