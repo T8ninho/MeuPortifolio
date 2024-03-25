@@ -9,10 +9,14 @@ export default function Portfolio() {
 
   return (
     <>
-      <Titulo />
-      <CardTecnologias />
-      <Projetos />
-      <Informacoes />
+        <Titulo />
+      <main>
+        <div className="SubMain">
+          <Informacoes />
+          <CardTecnologias />
+          <Projetos />
+        </div>
+      </main>
       <Contato />
     </>
   );

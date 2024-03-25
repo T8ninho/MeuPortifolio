@@ -4,15 +4,16 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 10px;
+	padding: 50px;
+    border-bottom: solid 2px #ffffff70;
 }
 
 .imageTecno {
-	height: 100px;
+	height: 60px;
 	padding: 10px;
 	border-radius: 10%;
 	overflow: hidden;
-	background: linear-gradient(#dd4ef6, #f71818);
+	background: #ffffff47;
 	display: flex;
 	justify-content: center;
 }
@@ -25,7 +26,7 @@
 
 .sombra {
 	transition: .5s ease-out;
-	filter: drop-shadow(10px 0 5px #000);
+	filter: drop-shadow(0px 0 5px #000);
 }
 
 .sombra:hover {
