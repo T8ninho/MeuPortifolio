@@ -1,6 +1,5 @@
 .ContainerSeta {
-    display: block;
-    padding-top: 30vh;
+    padding-top: 10vh;
   }
   
   .chevron {
@@ -34,33 +33,15 @@
   }
   
   .chevron:before {
-    left: -15px;
+    left: -16px;
     width: 100%;
     transform: skewY(30deg);
   }
   
   .chevron:after {
-    right: -15px;
+    right: -16px;
     width: 100%;
     transform: skewY(-30deg);
-  }
-  
-  @-webkit-keyframes move-chevron {
-    25% {
-      opacity: 1;
-    }
-    33.3% {
-      opacity: 1;
-      transform: translateY(2.28rem);
-    }
-    66.6% {
-      opacity: 1;
-      transform: translateY(3.12rem);
-    }
-    100% {
-      opacity: 0;
-      transform: translateY(4.8rem) scale(0.5);
-    }
   }
   
   @keyframes move-chevron {
