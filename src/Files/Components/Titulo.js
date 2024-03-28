@@ -4,6 +4,7 @@ import "../Styles/SetaDescendo.css"
 
 import AOS from 'aos'; //Efeitos
 import 'aos/dist/aos.css'; //Efeitos
+import MedidorPixel from './MedidorPixel';
 
 
 AOS.init(); //Inicializando Biblioteca
@@ -42,8 +43,8 @@ export default function Titulo(){
             data-aos-duration="1000">
             <div className="hero--content">
                 <div className='hero-bordaBottom'>
-                    <h1 className='titulosBG'>{Title}</h1>
-                    <span className="hero--highlight">T8ninho</span>
+                    <h1 className='titulosBG' style={{fontSize: MedidorPixel(38)}}>{Title}</h1>
+                    <span className="hero--highlight" style={{fontSize: MedidorPixel(35)}}>T8ninho</span>
                 </div>
                 <p>Uma coleção dos meus projetos e outras coisas legais que estou preparando.</p>
                 <br />

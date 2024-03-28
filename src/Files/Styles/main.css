@@ -89,26 +89,21 @@ main {
     text-align: center
 }
 
-.hero--content h1, .hero--highlight {
-    font-size: 80px;
-    line-height: 70px;
-    margin-bottom: 40px;
-}
-
 
 .hero--highlight {
     color: var(--TextoDestaque);
     display: block
 }
 
+.hero-bordaBottom {
+    padding-bottom: 40px;
+}
+
 @media(max-width:1000px) {
 
     .hero--content {
-        width: 80%;
     }
     .hero--content h1, .hero--content span {
-        font-size: 45px;
-        line-height: 40px
     }
 }
 
