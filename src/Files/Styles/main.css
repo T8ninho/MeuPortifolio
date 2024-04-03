@@ -115,11 +115,6 @@ main {
     text-transform: uppercase;
 }
 
-.projects {
-    min-height: 50vh;
-    height: 100%;
-}
-
 .projects-title {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -135,20 +130,17 @@ main {
 
 .project {
     width: 30%;
+    min-height: 500px;
     padding: 10px;
     border-radius: 16px;
     background: var(--ProjectBackground);
-}
-
-.projectSubContainer {
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .projectImage {
-    height: 25vh;
+    height: 250px;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
@@ -161,20 +153,23 @@ main {
     border-radius: 16px; 
 }
 .project--body {
-    padding: 15px;
-    font-weight: 200;
+    display: flex;
+    height: 50%;
+    padding-top: 15px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.project--body>h3 {
+.project--body h3 {
     font-size: 30px;
     padding-bottom: 15px;
     font-weight: 700;
 }
 
-.project--body>p {
+.project--body p {
     margin: 0 15px;
     font-size: 20px;
-    padding-top: 15px;
+    padding: 15px 0;
     text-align: left;
 }
 
@@ -217,20 +212,10 @@ main {
 .info {
     text-align: center;
     display: flex;
-    padding: 30px;
+    padding: 30px 0;
     justify-content: center;
     border-top: solid 2px #ffffff70;
     border-bottom: solid 2px #ffffff70;
-}
-
-
-.info-section {
-    padding-top: 10px;
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .info-text>h3 {

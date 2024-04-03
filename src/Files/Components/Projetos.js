@@ -12,7 +12,7 @@ AOS.init(); //Inicializando Biblioteca
 
 export default function Projetos() {
     return(
-        <div className="projects section" id="projetos">
+        <div className="section" id="projetos">
                 <h2 className="titulosBG projects-title">Projetos:</h2>
                 <div className="projects--container">
                         <CardProjeto 
