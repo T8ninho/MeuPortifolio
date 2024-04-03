@@ -6,6 +6,7 @@
 :root {
     --TextoDestaque: #0099ff;
     --TextoDestaqueHover: #ff5e00;
+    --TextoSelecionado: #00ff00;
     --light-blue: #75aaff;
     --primary-grey: #030518;
     --secondary-grey: #042a01;
@@ -18,7 +19,7 @@
 }
 
 ::selection {
-    background: var(--light-blue);
+    background: var(--TextoSelecionado);
     color: #000
 }
 
@@ -160,18 +161,21 @@ main {
     border-radius: 16px; 
 }
 .project--body {
-    display: flex;
     padding: 15px;
-    font-weight: 200
+    font-weight: 200;
 }
 
 .project--body>h3 {
     font-size: 30px;
-    font-weight: 400;
+    padding-bottom: 15px;
+    font-weight: 700;
 }
 
 .project--body>p {
+    margin: 0 15px;
     font-size: 20px;
+    padding-top: 15px;
+    text-align: left;
 }
 
 @media(max-width:1500px) {

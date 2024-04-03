@@ -19,8 +19,9 @@ export default function CardProjeto(props) {
                 <div className="projectImage">
                     <img src={Imagem} alt={AltImagem} />
                 </div>
-                <div Name="project--body">
+                <div className="project--body">
                     <h3>{Titulo}</h3>
+                    <hr />
                     <p>{Descricao}</p>
                 </div>
                 <div className="botaoRB">
