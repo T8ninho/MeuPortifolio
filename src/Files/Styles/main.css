@@ -26,15 +26,14 @@
 body {
     font-family: inter, Arial;
     background-color: #09050f;
-}
-main {
     background: transparent;
     background-image: url('../Images/BGG.jpg');
 }
 .SubMain {
     backdrop-filter: blur(10px);
+    border-radius: 30px;
     box-shadow: #000 0px 2px 4px 0px, #000 0px 2px 50px 0px;
-    margin: auto 10vw;
+    margin: 30px 10vw;
 	filter: drop-shadow(10px 0 5px #000);
 }
 
@@ -44,7 +43,6 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 28px;
     text-align: center;
 }
 
@@ -100,24 +98,16 @@ main {
     padding-bottom: 40px;
 }
 
-@media(max-width:1000px) {
-
-    .hero--content {
-    }
-    .hero--content h1, .hero--content span {
-    }
-}
-
 .titulosBG {
     background: linear-gradient(#ff0000,#de6868, #f700ff);
     background-clip: text;
+    font-size: 28px;
     color: transparent;
     text-transform: uppercase;
 }
 
 .projects-title {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 50px 0 30px 0;
 }
 .projects--container {
     display: flex;
@@ -214,8 +204,7 @@ main {
     display: flex;
     padding: 30px 0;
     justify-content: center;
-    border-top: solid 2px #ffffff70;
-    border-bottom: solid 2px #ffffff70;
+    border-bottom: solid 2px #ffffff30;
 }
 
 .info-text>h3 {

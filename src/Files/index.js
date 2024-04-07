@@ -10,13 +10,11 @@ export default function Portfolio() {
   return (
     <>
         <Titulo />
-      <main>
         <div className="SubMain">
           <Informacoes />
           <CardTecnologias />
           <Projetos />
         </div>
-      </main>
       <Contato />
     </>
   );
