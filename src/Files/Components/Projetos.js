@@ -3,6 +3,7 @@ import ListadosSonhos from "../Images/ListadosSonhosApp.jpg"
 import PlantaodosSonhos from "../Images/PlantaodosSonhos.jpg"
 import BolitosGourmet from "../Images/BolitosGourmet.jpg"
 import GaleriaWeb from "../Images/GaleriaWeb.jpg"
+import GitHubPesquisa from "../Images/GitHubPesquisa.png"
 import CardProjeto from "./CardProjeto"
 
 import AOS from 'aos'; //Efeitos
@@ -15,6 +16,14 @@ export default function Projetos() {
         <div className="section" id="projetos">
                 <h2 className="titulosBG projects-title">Projetos:</h2>
                 <div className="projects--container">
+                        <CardProjeto 
+                            Imagem={GitHubPesquisa}
+                            AltImagem="Imagem mostranho o site GithubPesquisa."
+                            Titulo="Github Pesquisa"
+                            Descricao="Um buscador de perfis do github usando nome de usuário. Utilizando a API do Github + Vite + ReactJS"
+                            Link="https://github-pesquisa.vercel.app/"
+                            ButtonText="Visitar"
+                        />
                         <CardProjeto 
                             Imagem={PlantaodosSonhos}
                             AltImagem="Imagem mostrando aplicativo android de controle de plantão."

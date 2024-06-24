@@ -26,6 +26,7 @@
 body {
     font-family: inter, Arial;
     background-color: #09050f;
+    color: #fff;
     background: transparent;
     background-image: url('../Images/BGG.jpg');
 }
