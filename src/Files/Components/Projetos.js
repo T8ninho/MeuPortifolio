@@ -29,8 +29,8 @@ export default function Projetos() {
                             AltImagem="Imagem mostrando aplicativo android de controle de plantão."
                             Titulo="Plantão dos Sonhos"
                             Descricao="Um aplicativo Android desenvolvido usando React-Native, Javascript e API do Governo para receber dados sobre feriados anuais."
-                            Link="https://play.google.com/store/apps/details?id=com.t8ninho.plantaodossonhos"
-                            ButtonText="Baixar"
+                            Link="https://github.com/T8ninho/plantao-dos-sonhos/"
+                            ButtonText="Visitar"
                         />
                         <CardProjeto
                             Imagem={GaleriaWeb}
@@ -45,8 +45,8 @@ export default function Projetos() {
                             AltImagem="Imagem mostrando aplicativo android de lista de tarefas."
                             Titulo="Lista dos Sonhos"
                             Descricao="Um aplicativo Android desenvolvido usando React-Native e Javascript."
-                            Link="https://play.google.com/store/apps/details?id=sonhos.dos.lista"
-                            ButtonText="Baixar"
+                            Link="https://github.com/T8ninho/Lista-dos-Sonhos/"
+                            ButtonText="Visitar"
                         />
                         <CardProjeto 
                             Imagem={SurvivalExtremo}
